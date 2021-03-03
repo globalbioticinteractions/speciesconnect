@@ -1,0 +1,88 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://speciesconnect.com/wp-content/themes/species-connect-theme/data/HmOhkEeKhwmykiblWKap/cases.csv",
+    "dcterms:bibliographicCitation" : "Species Connect. https://speciesconnect.com",
+    "delimiter" : ";",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "case_id",
+        "titles" : "case_id",
+        "datatype" : "string"
+      }, {
+        "name" : "interaction_id",
+        "titles" : "interaction_id",
+        "datatype" : "string"
+      }, {
+        "name" : "interaction_title",
+        "titles" : "interaction_title",
+        "datatype" : "string"
+      }, {
+        "name" : "taxonTaxonId",
+        "titles" : "species_a_id",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "species_a_taxon",
+        "datatype" : "string"
+      }, {
+        "name" : "species_a_sign",
+        "titles" : "species_a_sign",
+        "datatype" : "string"
+      }, {
+        "name" : "sc_interaction_type_id",
+        "titles" : "sc_interaction_type_id",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "sc_interaction_type_name",
+        "datatype" : "string"
+      }, {
+        "name" : "sc_interaction_type_posible_signs",
+        "titles" : "sc_interaction_type_posible_signs",
+        "datatype" : "string"
+      }, {
+        "name" : "sc_interaction_type_id_complete",
+        "titles" : "sc_interaction_type_id_complete",
+        "datatype" : "string"
+      }, {
+        "name" : "sc_interaction_type_name_complete",
+        "titles" : "sc_interaction_type_name_complete",
+        "datatype" : "string"
+      }, {
+        "name" : "species_b_id",
+        "titles" : "targetTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "species_b_taxon",
+        "datatype" : "string"
+      }, {
+        "name" : "species_b_sign",
+        "titles" : "species_b_sign",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "case_title",
+        "datatype" : "string"
+      }, {
+        "name" : "case_observations",
+        "titles" : "case_observations",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "case_link",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
