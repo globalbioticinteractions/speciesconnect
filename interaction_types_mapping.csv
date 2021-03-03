@@ -5,6 +5,9 @@ Detritivory,,eatenBy,http://purl.obolibrary.org/obo/RO_0002471
 Disease,,hasPathogen,http://purl.obolibrary.org/obo/RO_0002557
 Dispersal Vector,,vectorOf,http://purl.obolibrary.org/obo/RO_0002459
 Ectoparasitism,,hasEctoparasite,http://purl.obolibrary.org/obo/RO_0002633
+Rhizobium,,symbiontOf,http://purl.obolibrary.org/obo/RO_0002440
+Lichens,,symbiontOf,http://purl.obolibrary.org/obo/RO_0002440
+Mycorrhiza,,symbiontOf,http://purl.obolibrary.org/obo/RO_0002440
 Ectosymbiosis,,symbiontOf,http://purl.obolibrary.org/obo/RO_0002440
 Endoparasitism,,hasEndoparasite,http://purl.obolibrary.org/obo/RO_0002635
 Endosymbiosis,,symbiontOf,http://purl.obolibrary.org/obo/RO_0002440
