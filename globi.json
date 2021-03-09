@@ -27,12 +27,28 @@
         "titles" : "interaction_title",
         "datatype" : "string"
       }, {
-        "name" : "taxonTaxonId",
+        "name" : "targetTaxonId",
         "titles" : "species_a_id",
         "datatype" : "string"
       }, {
         "name" : "targetTaxonName",
-        "titles" : "species_a_taxon",
+        "titles" : "species_a_name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonRank",
+        "titles" : "species_a_rank",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPath",
+        "titles" : "species_a_name_hierarchy",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPathIds",
+        "titles" : "species_a_id_hierarchy",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPathNames",
+        "titles" : "species_a_rank_hierarchy",
         "datatype" : "string"
       }, {
         "name" : "species_a_sign",
@@ -59,23 +75,39 @@
         "titles" : "sc_interaction_type_name_complete",
         "datatype" : "string"
       }, {
-        "name" : "species_b_id",
-        "titles" : "targetTaxonId",
+        "name" : "sourceTaxonId",
+        "titles" : "species_b_id",
         "datatype" : "string"
       }, {
         "name" : "sourceTaxonName",
-        "titles" : "species_b_taxon",
+        "titles" : "species_b_name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonRank",
+        "titles" : "species_b_rank",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPath",
+        "titles" : "species_b_name_hierarchy",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPathIds",
+        "titles" : "species_b_id_hierarchy",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPathNames",
+        "titles" : "species_b_rank_hierarchy",
         "datatype" : "string"
       }, {
         "name" : "species_b_sign",
         "titles" : "species_b_sign",
         "datatype" : "string"
       }, {
-        "name" : "referenceCitation",
+        "name" : "case_title",
         "titles" : "case_title",
         "datatype" : "string"
       }, {
-        "name" : "case_observations",
+        "name" : "referenceCitation",
         "titles" : "case_observations",
         "datatype" : "string"
       }, {
